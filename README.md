@@ -31,7 +31,7 @@ I build software that balances production reliability with user privacy, focusin
 
 ---
 
-### Blueprints & projects
+### Integrable Solutions (Blueprints)
 
 *   **[NubeBoost](https://github.com/Evecchio/nubeboost)** — Checkout and load-speed optimization framework for Tiendanube. Re-engineers visual hierarchy and user flows to reduce cart abandonment by up to 35%.
 *   **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** — Ultra-fast headless e-commerce frontend built with **Next.js 15**, **React 19**, and **TypeScript**. Focuses on offline-persistent carts, immediate loading, and SEO optimization.
@@ -118,7 +118,7 @@ Creo código estructurado que equilibra la estabilidad en producción con la pri
 
 ---
 
-### Blueprints y proyectos
+### Soluciones Integrables (Blueprints)
 
 *   **[NubeBoost](https://github.com/Evecchio/nubeboost)** — Optimizador de velocidad y checkout para Tiendanube. Modifica la jerarquía visual y los flujos UX reduciendo el abandono de carrito hasta en un 35%.
 *   **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** — Frontend headless de alta velocidad desarrollado con **Next.js 15**, **React 19** y **TypeScript**. Incorpora carrito de compras persistente offline y SEO optimizado.
