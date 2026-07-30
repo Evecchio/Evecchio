@@ -18,18 +18,6 @@ I build software that balances production reliability with user privacy, focusin
 
 ---
 
-### Current role & focus
-
-#### **FVision** — *Founder & Lead Architect*
-*2025–present*
-
-* Design and implement headless e-commerce frontends ([Next.js 15](https://nextjs.org/) and [React 19](https://react.dev/)) to achieve page load speeds under 1 second.
-* Structure behavior-governed AI integrations using FastAPI and Ollama for secure, on-premise execution with zero data leakage.
-* Develop native cross-platform solutions for desktop and mobile environments using Python, Kotlin, and Jetpack Compose.
-
-**Current focus:** Headless e-commerce performance, local LLM integrations (RAG), and offline-first/local-first data syncing.
-
----
 
 ### Blueprints & projects
 
@@ -103,20 +91,6 @@ Soy desarrollador de software y arquitecto de sistemas basado en Argentina. Me e
 
 Creo código estructurado que equilibra la estabilidad en producción con la privacidad absoluta del usuario final.
 
----
-
-### Rol y enfoque actual
-
-#### **FVision** — *Fundador & Arquitecto de Software*
-*2025–presente*
-
-* Desarrollo de frontends desacoplados (headless e-commerce) usando [Next.js 15](https://nextjs.org/) y [React 19](https://react.dev/), logrando tiempos de carga inferiores a 1 segundo.
-* Estructuración de flujos de IA local mediante FastAPI y Ollama, procesando datos sensibles de manera local y con cero riesgo de fuga de datos en la nube.
-* Construcción de herramientas nativas y móviles multiplataforma utilizando Python para escritorio, y Kotlin junto a Jetpack Compose para Android.
-
-**Enfoque actual:** Rendimiento de e-commerce headless, integraciones de LLM locales (RAG) y sincronización de datos offline-first/local-first.
-
----
 
 ### Blueprints y proyectos
 
