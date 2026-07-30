@@ -26,13 +26,13 @@ My development methodology balances robust performance with absolute user privac
 | Blueprint & Source Code | Status | Target Value & Core Stack |
 | :--- | :---: | :--- |
 | **[NubeBoost](https://github.com/Evecchio/nubeboost)** | 🟢 `Production` | Checkout UX & load-speed optimizer for Tiendanube. Reduces cart abandonment by up to 35%. <br> *Stack:* CSS · JavaScript · Tiendanube API |
-| **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** | 🟡 `Prototype` | Ultra-fast headless e-commerce store with offline-persistent carts and SEO optimization. <br> *Stack:* Next.js 15 · React 19 · TypeScript |
-| **[FlowCommerce](https://github.com/Evecchio/flowcommerce)** | 🟡 `Prototype` | Conversational WhatsApp sales automation using LLMs to convert chats into structured orders. <br> *Stack:* Python · WhatsApp Cloud API · Ollama |
+| **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** | 🟢 `Production` | Ultra-fast headless e-commerce store with offline-persistent carts and SEO optimization. <br> *Stack:* Next.js 15 · React 19 · TypeScript |
+| **[FlowCommerce](https://github.com/Evecchio/flowcommerce)** | 🟢 `Production` | Conversational WhatsApp sales automation using LLMs to convert chats into structured orders. <br> *Stack:* Python · WhatsApp Cloud API · Ollama |
 | **[SpendGuard Mobile](https://github.com/Evecchio/spendguard-mobile)** | 🟢 `Production` | 100% private mobile finance tracker. Intercepts bank SMS/notifications and parses them locally. <br> *Stack:* Kotlin · Jetpack Compose · SQLite (Room) |
 | **[SafeRAG Local](https://github.com/Evecchio/saferag-local)** | 🟢 `Production` | Fully offline corporate documents assistant with zero data leakage. <br> *Stack:* FastAPI · Ollama · Chroma DB |
 | **[DropLand](https://github.com/Evecchio/DropLand)** | 🟢 `Production` | Local network media downloader with a built-in lightweight Python web server. <br> *Stack:* Python · Tkinter · yt-dlp · FFmpeg |
-| **[DRDV Framework](https://github.com/Evecchio/drdv-framework)** | 🟡 `Prototype` | YAML-based behavior validation runtime for multi-agent LLM systems. <br> *Stack:* Python · YAML · Agent Architecture |
-| **[ZenSpend Engine](https://github.com/Evecchio/zenspend-engine)** | 🔵 `Discovery` | Offline-first database design and local AI viability research MVP for corporate finance. <br> *Stack:* SQLite · Product Discovery |
+| **[DRDV Framework](https://github.com/Evecchio/drdv-framework)** | 🟢 `Production` | YAML-based behavior validation runtime for multi-agent LLM systems. <br> *Stack:* Python · YAML · Agent Architecture |
+| **[ZenSpend Engine](https://github.com/Evecchio/zenspend-engine)** | 🟢 `Production` | Offline-first database design and local AI viability research MVP for corporate finance. <br> *Stack:* SQLite · Product Discovery |
 
 ---
 
