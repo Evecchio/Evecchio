@@ -11,7 +11,7 @@
 
 ---
 
-## 🧠 Engineering Vision
+## 🧠 Core Focus
 
 My development methodology balances robust performance with absolute user privacy, focusing on edge-driven architectures and smooth user experiences:
 
