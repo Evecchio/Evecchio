@@ -25,9 +25,50 @@ I build software that balances production reliability with user privacy, focusin
 *   **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** — Ultra-fast headless e-commerce frontend built with **Next.js 15**, **React 19**, and **TypeScript**. Focuses on offline-persistent carts, immediate loading, and SEO optimization.
 *   **[FlowCommerce](https://github.com/Evecchio/flowcommerce)** — AI-powered WhatsApp sales automation. Converts informal chat conversations into structured, automated orders.
 *   **[SpendGuard Mobile](https://github.com/Evecchio/spendguard-mobile)** — A 100% private expense tracker written in **Kotlin** and **Jetpack Compose**. Listens to local bank notifications in the background, extracts transaction details via Regex, and stores data in a local encrypted **Room DB**.
+    ```mermaid
+    sequenceDiagram
+        autonumber
+        participant App as Bank App
+        participant OS as Android OS
+        participant Service as Background Listener Service
+        participant Parser as Regex Engine
+        participant DB as Encrypted Room DB
+        
+        App->>OS: Trigger Transaction Notification
+        OS->>Service: Intercept Notification Event
+        Service->>Parser: Extract Notification Text
+        Parser->>Parser: Process Regex (Amount, Date, Merchant)
+        Parser->>DB: Save Encrypted Record
+    ```
 *   **[SafeRAG Local](https://github.com/Evecchio/saferag-local)** — A fully offline corporate assistant. Combines **FastAPI**, **Ollama**, and **Chroma DB** to parse documents and answer queries locally without network requests.
+    ```mermaid
+    graph TD
+        subgraph Ingestion ["1. Local Ingest (Offline)"]
+            Doc["User Documents"] --> Parser["PDF/Text Parser"]
+            Parser --> Splitter["Text Splitter"]
+            Splitter --> Embedder["Local Embedder"]
+            Embedder --> VectorDB[("Local Chroma DB")]
+        end
+        subgraph Pipeline ["2. Query & Generation (Offline)"]
+            Query["User Query"] --> EmbedQuery["Embed Query"]
+            EmbedQuery --> VectorDB
+            VectorDB --> Context["Context Retrieval"]
+            Context --> LLM["Local Ollama LLM"]
+            Query --> LLM
+            LLM --> Response["Response"]
+        end
+    ```
 *   **[DropLand](https://github.com/Evecchio/DropLand)** — Local network downloader. Written in **Python** and **Tkinter**, it runs a lightweight web server that allows users to manage, convert, and trigger media downloads from any mobile device on the network.
 *   **[DRDV Framework](https://github.com/Evecchio/drdv-framework)** — A YAML-based validation runtime for multi-agent LLM systems. Enforces strict behavior contracts through the *Design-Review-Decide-Validate* lifecycle.
+    ```mermaid
+    stateDiagram-v2
+        [*] --> Design : Agent Request
+        Design --> Review : Spec Created
+        Review --> Decide : Behavior Checks Passed
+        Decide --> Validate : Decision Logged
+        Validate --> Execution : Verified Contract Compliance
+        Execution --> [*]
+    ```
 *   **[ZenSpend Engine](https://github.com/Evecchio/zenspend-engine)** — Offline-first database design and local AI viability research MVP for corporate finance.
 
 ---
@@ -98,9 +139,50 @@ Creo código estructurado que equilibra la estabilidad en producción con la pri
 *   **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** — Frontend headless de alta velocidad desarrollado con **Next.js 15**, **React 19** y **TypeScript**. Incorpora carrito de compras persistente offline y SEO optimizado.
 *   **[FlowCommerce](https://github.com/Evecchio/flowcommerce)** — Automatización de ventas por WhatsApp con Inteligencia Artificial. Convierte chats informales en pedidos estructurados y automatizados.
 *   **[SpendGuard Mobile](https://github.com/Evecchio/spendguard-mobile)** — Gestor de finanzas personales 100% privado en **Kotlin** y **Jetpack Compose**. Escucha notificaciones bancarias en segundo plano, extrae datos mediante Regex y los almacena localmente en una base de datos cifrada **Room**.
+    ```mermaid
+    sequenceDiagram
+        autonumber
+        participant App as Bank App
+        participant OS as Android OS
+        participant Service as Background Listener Service
+        participant Parser as Regex Engine
+        participant DB as Encrypted Room DB
+        
+        App->>OS: Trigger Transaction Notification
+        OS->>Service: Intercept Notification Event
+        Service->>Parser: Extract Notification Text
+        Parser->>Parser: Process Regex (Amount, Date, Merchant)
+        Parser->>DB: Save Encrypted Record
+    ```
 *   **[SafeRAG Local](https://github.com/Evecchio/saferag-local)** — Asistente de IA documental completamente offline. Integra **FastAPI**, **Ollama** y **Chroma DB** para procesar y responder consultas sobre documentos corporativos localmente.
+    ```mermaid
+    graph TD
+        subgraph Ingestion ["1. Local Ingest (Offline)"]
+            Doc["User Documents"] --> Parser["PDF/Text Parser"]
+            Parser --> Splitter["Text Splitter"]
+            Splitter --> Embedder["Local Embedder"]
+            Embedder --> VectorDB[("Local Chroma DB")]
+        end
+        subgraph Pipeline ["2. Query & Generation (Offline)"]
+            Query["User Query"] --> EmbedQuery["Embed Query"]
+            EmbedQuery --> VectorDB
+            VectorDB --> Context["Context Retrieval"]
+            Context --> LLM["Local Ollama LLM"]
+            Query --> LLM
+            LLM --> Response["Response"]
+        end
+    ```
 *   **[DropLand](https://github.com/Evecchio/DropLand)** — Gestor de descargas en red local. Escrito en **Python** y **Tkinter**, monta un servidor web liviano para controlar, convertir y programar descargas multimedia de forma remota desde cualquier móvil en la red.
 *   **[DRDV Framework](https://github.com/Evecchio/drdv-framework)** — Runtime de gobernanza basado en YAML para sistemas multi-agente de LLM. Valida contratos de comportamiento bajo el ciclo *Design-Review-Decide-Validate*.
+    ```mermaid
+    stateDiagram-v2
+        [*] --> Design : Agent Request
+        Design --> Review : Spec Created
+        Review --> Decide : Behavior Checks Passed
+        Decide --> Validate : Decision Logged
+        Validate --> Execution : Verified Contract Compliance
+        Execution --> [*]
+    ```
 *   **[ZenSpend Engine](https://github.com/Evecchio/zenspend-engine)** — Diseño de bases de datos offline-first e investigación de viabilidad de IA local para finanzas corporativas.
 
 ---
