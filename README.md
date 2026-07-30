@@ -1,4 +1,4 @@
-# Ezequiel Vecchio
+<h1 align="center">Ezequiel Vecchio</h1>
 
 <p align="center">
   <b>Founder & Lead Architect at FVision</b><br>
