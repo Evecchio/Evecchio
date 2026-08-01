@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <b>Building modular, high-performance software systems (Blueprints) designed to optimize conversions, deploy private local AI, and secure local-first data architectures.</b>
+  <b>Building modular, high-performance software systems designed to optimize ecommerce conversions, deploy private local AI, and secure local-first data architectures.</b>
 </p>
 
 ---
