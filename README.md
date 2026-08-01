@@ -1,7 +1,7 @@
 <h1 align="center">Ezequiel Vecchio</h1>
 
 <p align="center">
-  <b>Founder & Lead Architect at FVision</b><br>
+  <b>Founder @ FVision</b><br>
   <i>Argentina · UTC−3</i>
 </p>
 
