@@ -1,7 +1,7 @@
 <h1 align="center">Ezequiel Vecchio</h1>
 
 <p align="center">
-  <b>Founder @ FVision</b><br>
+  <b>Freelance Developer</b><br>
   <i>Argentina · UTC−3</i>
 </p>
 
