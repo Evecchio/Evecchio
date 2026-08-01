@@ -25,8 +25,7 @@ My development methodology balances robust performance with absolute user privac
 
 | Solution & Source Code | Status | Target Value & Core Stack |
 | :--- | :---: | :--- |
-| **[NubeBoost](https://github.com/Evecchio/nubeboost)** | 🟢 `Production` | Checkout UX & load-speed optimizer for Tiendanube. Reduces cart abandonment by up to 35%. <br> *Stack:* CSS · JavaScript · Tiendanube API |
-| **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** | 🟢 `Production` | Ultra-fast headless e-commerce store with offline-persistent carts and SEO optimization. <br> *Stack:* Next.js 15 · React 19 · TypeScript |
+| **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** | 🟢 `Production` | High-conversion sales & design interface combined with ultra-fast headless e-commerce architecture (sub-second load & offline carts). <br> *Stack:* Next.js 15 · React 19 · TypeScript · UX/UI |
 | **[FlowCommerce](https://github.com/Evecchio/flowcommerce)** | 🟢 `Production` | Conversational WhatsApp sales automation using LLMs to convert chats into structured orders. <br> *Stack:* Python · WhatsApp Cloud API · Ollama |
 | **[SpendGuard Mobile](https://github.com/Evecchio/spendguard-mobile)** | 🟢 `Production` | 100% private mobile finance tracker. Intercepts bank SMS/notifications and parses them locally. <br> *Stack:* Kotlin · Jetpack Compose · SQLite (Room) |
 | **[SafeRAG Local](https://github.com/Evecchio/saferag-local)** | 🟢 `Production` | Fully offline corporate documents assistant with zero data leakage. <br> *Stack:* FastAPI · Ollama · Chroma DB |
