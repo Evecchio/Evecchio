@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <b>Building modular, high-performance software systems designed to optimize ecommerce conversions, deploy private local AI, and secure local-first data architectures.</b>
+  <b>Building modular, high-performance software solutions designed to optimize ecommerce conversions, deploy private local AI, and secure local-first data architectures.</b>
 </p>
 
 ---
@@ -23,7 +23,7 @@ My development methodology balances robust performance with absolute user privac
 
 ## 🚀 Integrable Solutions
 
-| Source Code | Status | Target Value & Core Stack |
+| Solution & Source Code | Status | Target Value & Core Stack |
 | :--- | :---: | :--- |
 | **[NubeBoost](https://github.com/Evecchio/nubeboost)** | 🟢 `Production` | Checkout UX & load-speed optimizer for Tiendanube. Reduces cart abandonment by up to 35%. <br> *Stack:* CSS · JavaScript · Tiendanube API |
 | **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** | 🟢 `Production` | Ultra-fast headless e-commerce store with offline-persistent carts and SEO optimization. <br> *Stack:* Next.js 15 · React 19 · TypeScript |
