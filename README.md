@@ -1,7 +1,7 @@
 <h1 align="center">Ezequiel Vecchio</h1>
 
 <p align="center">
-  <b>Lead Software & AI Solutions Consultant</b><br>
+  <b>Software & AI Solutions Consultant</b><br>
   <i>Argentina · UTC−3</i>
 </p>
 
