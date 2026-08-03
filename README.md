@@ -1,45 +1,62 @@
 <h1 align="center">Ezequiel Vecchio</h1>
 
 <p align="center">
-  <b>Freelance Developer</b><br>
+  <b>Lead Software Architect & Enterprise Solutions Consultant</b><br>
   <i>Argentina · UTC−3</i>
 </p>
 
 <p align="center">
-  <b>Building modular, high-performance software solutions designed to optimize ecommerce conversions, deploy private local AI, and secure local-first data architectures.</b>
+  <b>Architecting enterprise-grade software solutions across 3 key business areas: High-Speed E-Commerce, Operational AI Workflow Automation, and Private Data Intelligence (VPC / On-Premise).</b>
 </p>
 
 ---
 
-## 🧠 Core Focus
+## 🛡️ Enterprise Security & Compliance
 
-My development methodology balances robust performance with absolute user privacy, focusing on edge-driven architectures and smooth user experiences:
+All AI and data solutions are deployed in **Dedicated Private Servers (VPC)** or **On-Premise Local Infrastructure**, adhering strictly to global security frameworks:
 
-*   **Sub-Second Performance:** I specialize in headless e-commerce frontends that achieve page load speeds under 1 second to minimize bounce rates and maximize user conversion.
-*   **Local-First & Offline-First:** I believe user data should belong to the user. I build apps that process, validate, and store data locally using encrypted databases on the device, syncing with the cloud only when necessary.
-*   **Predictable AI Integration:** Instead of exposing client data to third-party cloud APIs, I deploy local LLM integrations (RAG) using Ollama, controlled by strict behavior validation runtimes.
+*   **SOC 2 Type II / ISO 27001 Alignment:** Infrastructure isolation, strict access control, and complete audit logging.
+*   **GDPR & CCPA Compliant:** Local/Private server processing with zero unauthorized cross-border data transfer.
+*   **HIPAA & PII Data Encryption:** Military-grade **AES-256** encryption at rest and **TLS 1.3** in transit for sensitive corporate data.
+*   **OWASP Top 10 & Zero-Trust Architecture:** Least privilege principles and strict prompt injection defenses for LLM/AI workflows.
+*   **Zero Data Retention & No Third-Party Training:** Contractual guarantee that **no corporate data** is shared or used to train third-party public models.
 
 ---
 
-## 🚀 Integrable Solutions
+## 🏛️ Business Solutions Portfolio
 
-| Solution & Source Code | Status | Target Value & Core Stack |
+### 🛍️ 1. Sales & E-Commerce
+| Solution & Code | Deployment | Value Proposition & Stack |
 | :--- | :---: | :--- |
-| **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** | 🟢 `Production` | High-conversion sales & design interface combined with ultra-fast headless e-commerce architecture (sub-second load & offline carts). <br> *Stack:* Next.js 15 · React 19 · TypeScript · UX/UI |
-| **[FlowCommerce](https://github.com/Evecchio/flowcommerce)** | 🟢 `Production` | Conversational WhatsApp sales automation using LLMs to convert chats into structured orders. <br> *Stack:* Python · WhatsApp Cloud API · Ollama |
-| **[SpendGuard Mobile](https://github.com/Evecchio/spendguard-mobile)** | 🟢 `Production` | 100% private mobile finance tracker. Intercepts bank SMS/notifications and parses them locally. <br> *Stack:* Kotlin · Jetpack Compose · SQLite (Room) |
-| **[SafeRAG Local](https://github.com/Evecchio/saferag-local)** | 🟢 `Production` | Fully offline corporate documents assistant with zero data leakage. <br> *Stack:* FastAPI · Ollama · Chroma DB |
-| **[DropLand](https://github.com/Evecchio/DropLand)** | 🟢 `Production` | Local network media downloader with a built-in lightweight Python web server. <br> *Stack:* Python · Tkinter · yt-dlp · FFmpeg |
-| **[DRDV Framework](https://github.com/Evecchio/drdv-framework)** | 🟢 `Production` | YAML-based behavior validation runtime for multi-agent LLM systems. <br> *Stack:* Python · YAML · Agent Architecture |
-| **[ZenSpend Engine](https://github.com/Evecchio/zenspend-engine)** | 🟢 `Production` | Offline-first database design and local AI viability research MVP for corporate finance. <br> *Stack:* SQLite · Product Discovery |
+| **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** | 🟢 `Production` | Proprietary e-commerce platform with simplified workflows, sub-second load times (<1s), agile checkout, and high conversion. <br> *Stack:* Next.js 15 · React 19 · TypeScript · High Conversion |
+| **[AI Sales Engine](https://github.com/Evecchio/flowcommerce)** | 🟢 `Production` | Conversational WhatsApp sales automation converting unstructured chats into structured CRM/ERP orders. <br> *Stack:* Python · WhatsApp API · AI Agents · Conversational Commerce |
+
+### ⚙️ 2. Operations & Workflow Coordination
+| Solution & Code | Deployment | Value Proposition & Stack |
+| :--- | :---: | :--- |
+| **[Enterprise AI Agents](https://github.com/Evecchio)** | 🟢 `Production` | Autonomous multi-agent systems orchestrating complex operational workflows between teams and ERP/CRM cores. <br> *Stack:* Python · AI Multi-Agent · ERP/CRM Integration |
+| **[Agentic Governance (DRDV)](https://github.com/Evecchio/drdv-framework)** | 🟢 `Production` | Deterministic behavior validation runtime (Design-Review-Decide-Validate) with Human-in-the-Loop supervision. <br> *Stack:* Python · YAML · Zero-Trust · AI Governance |
+| **[Zero-Latency Local-First Sync](https://github.com/Evecchio/spendguard-mobile)** | 🟢 `Production` | Edge-encrypted mobile/desktop applications with 0ms UI response and transparent background sync. <br> *Stack:* Kotlin · Jetpack Compose · AES-256 · Room DB |
+
+### 📊 3. Data Intelligence & Private Security
+| Solution & Code | Deployment | Value Proposition & Stack |
+| :--- | :---: | :--- |
+| **[Enterprise Private AI & GraphRAG](https://github.com/Evecchio/saferag-local)** | 🟢 `Production` | 100% private document analysis & Hybrid GraphRAG hosted on Private Servers (VPC) / On-Premise ($0 token API cost). <br> *Stack:* FastAPI · Ollama · GraphRAG · Chroma DB · SOC 2 / GDPR |
+| **[Data Architecture Discovery](https://github.com/Evecchio/zenspend-engine)** | 🟢 `Consulting` | Technical architecture audits, OWASP/SOC2 security evaluations, and MVP technical roadmap definition. <br> *Stack:* Architecture Audit · Product Discovery · Security Strategy |
+
+---
+
+## 💼 Engagement & Work Models
+
+*   **1-2 Weeks: Audit & Technical Advisory** — Architecture diagnostic, e-commerce load-speed analysis, and OWASP/SOC2 security evaluation.
+*   **2-4 Weeks: Rapid Solution Integration** — Fast-track deployment of proprietary e-commerce and private AI modules on your private servers.
+*   **Ongoing: Fractional Lead Architecture** — Strategic technical leadership and architecture guidance for engineering teams.
 
 ---
 
 ## 🛠️ Technical Stack & Toolkit
 
-These are the technologies, languages, and distribution tools I utilize to implement modular and secure software architectures:
-
-### **Frontend & Interface**
+### **Frontend & Architecture**
 <p>
   <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /></a>
   <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" /></a>
@@ -49,34 +66,14 @@ These are the technologies, languages, and distribution tools I utilize to imple
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" /></a>
 </p>
 
-### **Backend & Local AI**
+### **Backend, Private AI & Governance**
 <p>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
   <a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" /></a>
   <a href="https://ollama.com/"><img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" /></a>
   <a href="https://www.trychroma.com/"><img src="https://img.shields.io/badge/Chroma_DB-FFDE4D?style=for-the-badge" alt="Chroma DB" /></a>
-  <img src="https://img.shields.io/badge/WhatsApp_API-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp API" />
-  <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
-</p>
-
-### **Mobile, Desktop & Local-First**
-<p>
-  <a href="https://kotlinlang.org/"><img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" /></a>
-  <a href="https://developer.android.com/compose"><img src="https://img.shields.io/badge/Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" /></a>
-  <a href="https://developer.android.com/training/data-storage/room"><img src="https://img.shields.io/badge/Room_DB-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="Room DB" /></a>
-  <a href="https://developer.android.com/training/data-storage/room"><img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" /></a>
-  <a href="https://developer.android.com/"><img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" /></a>
-  <img src="https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter" />
-</p>
-
-### **Media Processing, DevOps & Distribution**
-<p>
-  <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" /></a>
-  <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" /></a>
-  <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
-  <img src="https://img.shields.io/badge/yt--dlp-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="yt-dlp" />
-  <img src="https://img.shields.io/badge/MSIX-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="MSIX" />
-  <img src="https://img.shields.io/badge/Inno_Setup-1F6FEB?style=for-the-badge" alt="Inno Setup" />
+  <img src="https://img.shields.io/badge/SOC_2_Aligned-003B57?style=for-the-badge" alt="SOC 2" />
+  <img src="https://img.shields.io/badge/AES--256_Encrypted-0078D4?style=for-the-badge" alt="AES-256" />
 </p>
 
 ---
@@ -92,7 +89,7 @@ These are the technologies, languages, and distribution tools I utilize to imple
 ## 📫 Connect with me
 
 <p align="center">
-  <a href="https://evecchio.github.io/FVision-Builders/"><img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://evecchio.github.io/FVision-Builders/"><img src="https://img.shields.io/badge/Web_Portfolio-111827?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio" /></a>
   <a href="https://github.com/Evecchio"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="mailto:ezequiel.vecchio.fv@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
