@@ -1,12 +1,12 @@
 <h1 align="center">Ezequiel Vecchio</h1>
 
 <p align="center">
-  <b>Lead Software Architect & Enterprise Solutions Consultant</b><br>
+  <b>Lead Software & AI Solutions Consultant</b><br>
   <i>Argentina · UTC−3</i>
 </p>
 
 <p align="center">
-  <b>Architecting enterprise-grade software solutions across 3 key business areas: High-Speed E-Commerce, Operational AI Workflow Automation, and Private Data Intelligence (VPC / On-Premise).</b>
+  <b>Engineering high-impact enterprise software solutions across 3 key business pillars: High-Speed E-Commerce, Operational AI Workflow Automation, and Private Data Systems (VPC / On-Premise).</b>
 </p>
 
 ---
@@ -25,38 +25,25 @@ All AI and data solutions are deployed in **Dedicated Private Servers (VPC)** or
 
 ## 🏛️ Business Solutions Portfolio
 
-### 🛍️ 1. Sales & E-Commerce
-| Solution & Code | Deployment | Value Proposition & Stack |
-| :--- | :---: | :--- |
-| **[CoreStore Headless](https://github.com/Evecchio/corestore-headless)** | 🟢 `Production` | Proprietary e-commerce platform with simplified workflows, sub-second load times (<1s), agile checkout, and high conversion. <br> *Stack:* Next.js 15 · React 19 · TypeScript · High Conversion |
-| **[AI Sales Engine](https://github.com/Evecchio/flowcommerce)** | 🟢 `Production` | Conversational WhatsApp sales automation converting unstructured chats into structured CRM/ERP orders. <br> *Stack:* Python · WhatsApp API · AI Agents · Conversational Commerce |
-
-### ⚙️ 2. Operations & Workflow Coordination
-| Solution & Code | Deployment | Value Proposition & Stack |
-| :--- | :---: | :--- |
-| **[Enterprise AI Agents](https://github.com/Evecchio)** | 🟢 `Production` | Autonomous multi-agent systems orchestrating complex operational workflows between teams and ERP/CRM cores. <br> *Stack:* Python · AI Multi-Agent · ERP/CRM Integration |
-| **[Agentic Governance (DRDV)](https://github.com/Evecchio/drdv-framework)** | 🟢 `Production` | Deterministic behavior validation runtime (Design-Review-Decide-Validate) with Human-in-the-Loop supervision. <br> *Stack:* Python · YAML · Zero-Trust · AI Governance |
-| **[Zero-Latency Local-First Sync](https://github.com/Evecchio/spendguard-mobile)** | 🟢 `Production` | Edge-encrypted mobile/desktop applications with 0ms UI response and transparent background sync. <br> *Stack:* Kotlin · Jetpack Compose · AES-256 · Room DB |
-
-### 📊 3. Data Intelligence & Private Security
-| Solution & Code | Deployment | Value Proposition & Stack |
-| :--- | :---: | :--- |
-| **[Enterprise Private AI & GraphRAG](https://github.com/Evecchio/saferag-local)** | 🟢 `Production` | 100% private document analysis & Hybrid GraphRAG hosted on Private Servers (VPC) / On-Premise ($0 token API cost). <br> *Stack:* FastAPI · Ollama · GraphRAG · Chroma DB · SOC 2 / GDPR |
-| **[Data Architecture Discovery](https://github.com/Evecchio/zenspend-engine)** | 🟢 `Consulting` | Technical architecture audits, OWASP/SOC2 security evaluations, and MVP technical roadmap definition. <br> *Stack:* Architecture Audit · Product Discovery · Security Strategy |
+| Area | Solution & Code | Deployment | Value Proposition & Stack |
+| :--- | :--- | :---: | :--- |
+| **🛍️ Ventas** | **[CoreStore & AI Sales Engine](https://github.com/Evecchio/corestore-headless)** | 🟢 `Production` | High-speed proprietary e-commerce platform (<1s load time) with agile checkout & automated WhatsApp AI conversational sales. <br> *Stack:* Next.js 15 · React 19 · WhatsApp API · High Conversion |
+| **⚙️ Operaciones** | **[Enterprise Operations & AI Agents](https://github.com/Evecchio/drdv-framework)** | 🟢 `Production` | Autonomous multi-agent systems automating complex workflows between teams and ERP/CRM cores under strict behavioral governance (DRDV Framework). <br> *Stack:* Python · AI Multi-Agent · Human-in-the-Loop · ERP/CRM Sync |
+| **📊 Datos** | **[Private AI Data System](https://github.com/Evecchio/saferag-local)** | 🟢 `Production` | 100% private document analysis & Hybrid GraphRAG hosted on Private Servers (VPC) / On-Premise ($0 token API cost, zero data leakage). <br> *Stack:* FastAPI · Ollama · GraphRAG · AES-256 · SOC 2 / GDPR |
 
 ---
 
 ## 💼 Engagement & Work Models
 
-*   **1-2 Weeks: Audit & Technical Advisory** — Architecture diagnostic, e-commerce load-speed analysis, and OWASP/SOC2 security evaluation.
+*   **1-2 Weeks: Audit & Technical Advisory** — Systems diagnostic, e-commerce load-speed analysis, and OWASP/SOC2 security evaluation.
 *   **2-4 Weeks: Rapid Solution Integration** — Fast-track deployment of proprietary e-commerce and private AI modules on your private servers.
-*   **Ongoing: Fractional Lead Architecture** — Strategic technical leadership and architecture guidance for engineering teams.
+*   **Ongoing: Fractional Lead Engineering** — Strategic technical leadership and guidance for engineering teams.
 
 ---
 
 ## 🛠️ Technical Stack & Toolkit
 
-### **Frontend & Architecture**
+### **Frontend & Interface**
 <p>
   <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" /></a>
   <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" /></a>
