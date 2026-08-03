@@ -27,9 +27,9 @@ All AI and data solutions are deployed in **Dedicated Private Servers (VPC)** or
 
 | Area | Solution & Code | Deployment | Value Proposition & Stack |
 | :--- | :--- | :---: | :--- |
-| **🛍️ Ventas** | **[CoreStore & AI Sales Engine](https://github.com/Evecchio/corestore-headless)** | 🟢 `Production` | High-speed proprietary e-commerce platform (<1s load time) with agile checkout & automated WhatsApp AI conversational sales. <br> *Stack:* Next.js 15 · React 19 · WhatsApp API · High Conversion |
-| **⚙️ Operaciones** | **[Enterprise Operations & AI Agents](https://github.com/Evecchio/drdv-framework)** | 🟢 `Production` | Autonomous multi-agent systems automating complex workflows between teams and ERP/CRM cores under strict behavioral governance (DRDV Framework). <br> *Stack:* Python · AI Multi-Agent · Human-in-the-Loop · ERP/CRM Sync |
-| **📊 Datos** | **[Private AI Data System](https://github.com/Evecchio/saferag-local)** | 🟢 `Production` | 100% private document analysis & Hybrid GraphRAG hosted on Private Servers (VPC) / On-Premise ($0 token API cost, zero data leakage). <br> *Stack:* FastAPI · Ollama · GraphRAG · AES-256 · SOC 2 / GDPR |
+| **🛍️ Ventas** | 🔒 **[CoreStore & AI Sales Engine](https://evecchio.github.io/FVision-Builders/)** | 🟢 `Production` | High-speed proprietary e-commerce platform (<1s load time) with agile checkout & automated WhatsApp AI conversational sales. <br> *Stack:* Next.js 15 · React 19 · WhatsApp API · High Conversion |
+| **⚙️ Operaciones** | 🔒 **[Enterprise Operations & AI Agents](https://evecchio.github.io/FVision-Builders/)** | 🟢 `Production` | Autonomous multi-agent systems automating complex workflows between teams and ERP/CRM cores under strict behavioral governance (DRDV Framework). <br> *Stack:* Python · AI Multi-Agent · Human-in-the-Loop · ERP/CRM Sync |
+| **📊 Datos** | 🔒 **[Private AI Data System](https://evecchio.github.io/FVision-Builders/)** | 🟢 `Production` | 100% private document analysis & Hybrid GraphRAG hosted on Private Servers (VPC) / On-Premise ($0 token API cost, zero data leakage). <br> *Stack:* FastAPI · Ollama · GraphRAG · AES-256 · SOC 2 / GDPR |
 
 ---
 
