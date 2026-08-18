@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <b>Engineering high-impact enterprise software solutions across 3 key business pillars: High-Speed, Operational AI Workflow Automation, and Private Data Systems (VPC / On-Premise).</b>
+  <b>Engineering high-impact enterprise software solutions across 3 key business pillars: High-Speed, Operational AI Workflow Automation, and Private Data Systems.</b>
 </p>
 
 ---
