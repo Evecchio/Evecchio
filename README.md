@@ -43,13 +43,6 @@
   <img src="https://img.shields.io/badge/AES--256_Encrypted-0078D4?style=for-the-badge" alt="AES-256" />
 </p>
 
----
-
-## 📈 Activity & Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Evecchio&show_icons=true&theme=transparent&hide_border=true&title_color=E85A37&icon_color=E85A37&text_color=625E57" alt="Evecchio's GitHub Stats" />
-</p>
 
 ---
 
