@@ -11,7 +11,7 @@
 
 ---
 
-## 🏛️ Business Solutions Portfolio
+## 🏛️ Business Solutions
 
 | Area | Solution & Code | Deployment | Value Proposition & Stack |
 | :--- | :--- | :---: | :--- |
