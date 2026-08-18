@@ -11,18 +11,6 @@
 
 ---
 
-## 🛡️ Enterprise Security & Compliance
-
-All AI and data solutions are deployed in **Dedicated Private Servers (VPC)** or **On-Premise Local Infrastructure**, adhering strictly to global security frameworks:
-
-*   **SOC 2 Type II / ISO 27001 Alignment:** Infrastructure isolation, strict access control, and complete audit logging.
-*   **GDPR & CCPA Compliant:** Local/Private server processing with zero unauthorized cross-border data transfer.
-*   **HIPAA & PII Data Encryption:** Military-grade **AES-256** encryption at rest and **TLS 1.3** in transit for sensitive corporate data.
-*   **OWASP Top 10 & Zero-Trust Architecture:** Least privilege principles and strict prompt injection defenses for LLM/AI workflows.
-*   **Zero Data Retention & No Third-Party Training:** Contractual guarantee that **no corporate data** is shared or used to train third-party public models.
-
----
-
 ## 🏛️ Business Solutions Portfolio
 
 | Area | Solution & Code | Deployment | Value Proposition & Stack |
@@ -30,14 +18,6 @@ All AI and data solutions are deployed in **Dedicated Private Servers (VPC)** or
 | **🛍️ Sales** | 🔒 **[CoreStore & AI Sales Engine](https://evecchio.github.io/FVision-Builders/)** | 🟢 `Production` | High-speed proprietary e-commerce platform (<1s load time) with agile checkout & automated WhatsApp AI conversational sales. <br> *Stack:* Next.js 15 · React 19 · WhatsApp API · High Conversion |
 | **⚙️ Operation** | 🔒 **[Enterprise Operations & AI Agents](https://evecchio.github.io/FVision-Builders/)** | 🟢 `Production` | Autonomous multi-agent systems automating complex workflows between teams and ERP/CRM cores under strict behavioral governance (DRDV Framework). <br> *Stack:* Python · AI Multi-Agent · Human-in-the-Loop · ERP/CRM Sync |
 | **📊 Data** | 🔒 **[Private AI Data System](https://evecchio.github.io/FVision-Builders/)** | 🟢 `Production` | 100% private document analysis & Hybrid GraphRAG hosted on Private Servers (VPC) / On-Premise ($0 token API cost, zero data leakage). <br> *Stack:* FastAPI · Ollama · GraphRAG · AES-256 · SOC 2 / GDPR |
-
----
-
-## 💼 Engagement & Work Models
-
-*   **1-2 Weeks: Audit & Technical Advisory** — Systems diagnostic, e-commerce load-speed analysis, and OWASP/SOC2 security evaluation.
-*   **2-4 Weeks: Rapid Solution Integration** — Fast-track deployment of proprietary e-commerce and private AI modules on your private servers.
-*   **Ongoing: Fractional Lead Engineering** — Strategic technical leadership and guidance for engineering teams.
 
 ---
 
